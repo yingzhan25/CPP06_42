@@ -21,6 +21,8 @@ class ScalarConverter {
 		static void toInt(double value);
 		static void toFloat(double value);
 		static void toDouble(double value);
+
+		static void printImpossible();
 	public:
 		static void convert(const std::string& str);
 };
