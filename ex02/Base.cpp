@@ -6,6 +6,8 @@
 #include <cstdlib>
 #include <ctime>
 
+Base::~Base() {}
+
 Base* generate(void) {
 	// Only seed once even if calling functions multiple times
 	// to avoid rand() returns same value every time
